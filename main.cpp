@@ -75,7 +75,7 @@ MOV_TYPE classifyMovement(pair<int, int> diff)
     return INVALID;
 }
 
-int soma = 0;
+unsigned long long int soma = 0;
 void nextNode(int digitos, int atual)
 {
     if (digitos == 0)
